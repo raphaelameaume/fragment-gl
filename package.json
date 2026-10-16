@@ -1,6 +1,6 @@
 {
 	"name": "fragment-gl",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A tiny library for running fragment shaders on a canvas with WebGL 1/2",
 	"homepage": "https://github.com/raphaelameaume/fragment-gl#readme",
 	"bugs": {
