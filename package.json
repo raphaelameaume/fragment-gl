@@ -1,0 +1,47 @@
+{
+	"name": "fragment-gl",
+	"version": "0.1.0",
+	"description": "A starter for creating a TypeScript package.",
+	"homepage": "https://github.com/raphaelameaume/fragment-gl#readme",
+	"bugs": {
+		"url": "https://github.com/raphaelameaume/fragment-gl/issues"
+	},
+	"license": "MIT",
+	"author": "Raphaël Améaume <hello@raphaelameaume.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/raphaelameaume/fragment-gl.git"
+	},
+	"files": [
+		"dist"
+	],
+	"type": "module",
+	"exports": {
+		".": "./dist/index.mjs",
+		"./package.json": "./package.json"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"build": "vp pack",
+		"dev": "vp pack --watch",
+		"test": "vp test",
+		"check": "vp check",
+		"prepublishOnly": "vp run build",
+		"prepare": "vp config"
+	},
+	"devDependencies": {
+		"@types/node": "^26.1.1",
+		"bumpp": "^11.1.0",
+		"typescript": "^7.0.2",
+		"vite-plus": "catalog:"
+	},
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "12.8.1",
+			"onFail": "download"
+		}
+	}
+}
