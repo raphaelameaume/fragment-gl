@@ -1,7 +1,7 @@
 {
 	"name": "fragment-gl",
 	"version": "1.0.0",
-	"description": "A starter for creating a TypeScript package.",
+	"description": "A tiny library for running fragment shaders on a canvas with WebGL 1/2",
 	"homepage": "https://github.com/raphaelameaume/fragment-gl#readme",
 	"bugs": {
 		"url": "https://github.com/raphaelameaume/fragment-gl/issues"
